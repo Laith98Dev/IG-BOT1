@@ -405,7 +405,7 @@ while (true) {
 			if ($kk == 'False'){
 				logintrue('NULL','NULL');
 				main2($call_id,$call_msg_id,$ttt);}
-			else{continue;}
+			else{}
 			break;
 		case 'checkacc':
 			$login = get('acc','loggin');
@@ -451,4 +451,3 @@ while (true) {
 
 	}
 }
-
